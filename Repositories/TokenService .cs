@@ -38,6 +38,7 @@ namespace WebApiCoreWithAllFeatures.Repositories
                 signingCredentials: creds
             );
 
+
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }

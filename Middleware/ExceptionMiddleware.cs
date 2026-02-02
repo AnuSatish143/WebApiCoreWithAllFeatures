@@ -17,6 +17,7 @@
             }
             catch (Exception ex)
             {
+
                 _logger.LogError($"Something went wrong: {ex}");
                 context.Response.StatusCode = 500;
                 await context.Response.WriteAsync($"Internal Server Error: {ex}");

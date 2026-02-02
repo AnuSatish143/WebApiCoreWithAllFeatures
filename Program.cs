@@ -7,7 +7,7 @@ using Serilog;
 using Serilog.Events;
 using WebApiCoreWithAllFeatures.Middleware;
 
-//JWt 123
+//JWt
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
